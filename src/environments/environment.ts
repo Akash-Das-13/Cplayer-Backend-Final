@@ -3,7 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  pNameurl: 'https://localhost:44320/api/Player/name',
+  pIdurl: 'https://localhost:44320/api/Player/id',
+
+  loginUrl: 'https://localhost:44332/api/Auth/login',
+  registerUrl: 'https://localhost:44332/api/Auth/register',
+
+  favurl: 'https://localhost:44306/api/Favourite',
+
+  recurl: 'https://localhost:44309/api/Recommendation'
+
+
 };
 
 /*

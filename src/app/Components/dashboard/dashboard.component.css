@@ -1,0 +1,31 @@
+.cHead{
+    background: linear-gradient(180deg,  #7e7e7e 40%, #636262 55%);
+}
+
+
+.cFoot{
+    background: linear-gradient(180deg, #6e6e6e 40%, #969595 60%);
+}
+
+.cBody{
+    background: linear-gradient(110deg, #dddcdc 20%, #ffffff 40%);
+}
+
+.Back{
+    background: linear-gradient(110deg, #f7f6f5 60%, #d3d4d4 60%);
+}
+
+.s{
+    font-size: large;
+}
+
+.jumbo{
+    background-color: darkgray;
+}
+
+/* .vertical-line{
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 10px 10px;
+    height: 25px;
+} */

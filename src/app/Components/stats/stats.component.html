@@ -1,0 +1,274 @@
+<div class="container-fluid" style="background: -webkit-linear-gradient(right, rgb(204, 202, 200) 50%, rgb(236, 240, 236) 50%);">
+    <div class="row">
+        <div class="col-md-8 offset-md-2 mt-3">
+
+
+
+            <div class="card border-dark mb-3 text-center .w-auto">
+                <div class="card-header bg-secondary bg-dark">
+                    <h4 style="font-family: Comic Sans MS; color: ivory;">{{Details['name']}}</h4>
+
+                </div>
+                <div class="card-body text-dark cBody">
+                    <img src="{{Details['imageURL']}}" alt="">
+                    <h5 class="card-title">{{Details['fullName']}} </h5>
+                    <p class="card-text text-justify">{{Details['profile']}}</p>
+                    <div class="table-responsive">
+                        <table class="table table-borderless">
+
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Country </th>
+                                    <td>{{Details['country']}}</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Playing Role </th>
+                                    <td>{{Details['playingRole']}}</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Batting Style </th>
+                                    <td>{{Details['battingStyle']}}</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Bowling Style </th>
+                                    <td>{{Details['bowlingStyle']}}</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"> PLayed For</th>
+                                    <td>{{Details['majorTeams']}}</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Born </th>
+                                    <td>{{Details['born']}}</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Current Age </th>
+                                    <td>{{Details['currentAge']}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <h5 mt-3 mb-3> Batting Performance</h5>
+            <hr>
+
+            <div class="table-responsive">
+
+                <table class="table table-hover table-dark  ">
+                    <thead>
+                        <tr>
+                            <th scope="col">League</th>
+                            <th scope="col">50</th>
+                            <th scope="col">100</th>
+                            <th scope="col">Ct</th>
+                            <th scope="col">6s</th>
+                            <th scope="col">4s</th>
+                            <th scope="col">Ave</th>
+                            <th scope="col">Hs</th>
+                            <th scope="col">Runs</th>
+                            <th scope="col">NO</th>
+                            <th scope="col">Inns</th>
+                            <th scope="col">Mat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">ListA</th>
+                            <td>{{BattListA['fifty']}}</td>
+                            <td>{{BattListA['hundred']}}</td>
+                            <td>{{BattListA['st']}}</td>
+                            <td>{{BattListA['ct']}}</td>
+                            <td>{{BattListA['s6']}}</td>
+                            <td>{{BattListA['s4']}}</td>
+                            <td>{{BattListA['ave']}}</td>
+                            <td>{{BattListA['hs']}}</td>
+                            <td>{{BattListA['runs']}}</td>
+                            <td>{{BattListA['no']}}</td>
+                            <td>{{BattListA['inns']}}</td>
+                            <td>{{BattListA['mat']}}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">First Class</th>
+                            <td>{{BattFirstclass['fifty']}}</td>
+                            <td>{{BattFirstclass['hundred']}}</td>
+                            <td>{{BattFirstclass['st']}}</td>
+                            <td>{{BattFirstclass['ct']}}</td>
+                            <td>{{BattFirstclass['s6']}}</td>
+                            <td>{{BattFirstclass['s4']}}</td>
+                            <td>{{BattFirstclass['ave']}}</td>
+                            <td>{{BattFirstclass['hs']}}</td>
+                            <td>{{BattFirstclass['runs']}}</td>
+                            <td>{{BattFirstclass['no']}}</td>
+                            <td>{{BattFirstclass['inns']}}</td>
+                            <td>{{BattFirstclass['mat']}}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">T20Is</th>
+                            <td>{{BattT20s['fifty']}}</td>
+                            <td>{{BattT20s['hundred']}}</td>
+                            <td>{{BattT20s['st']}}</td>
+                            <td>{{BattT20s['ct']}}</td>
+                            <td>{{BattT20s['s6']}}</td>
+                            <td>{{BattT20s['s4']}}</td>
+                            <td>{{BattT20s['ave']}}</td>
+                            <td>{{BattT20s['hs']}}</td>
+                            <td>{{BattT20s['runs']}}</td>
+                            <td>{{BattT20s['no']}}</td>
+                            <td>{{BattT20s['inns']}}</td>
+                            <td>{{BattT20s['mat']}}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">ODIs</th>
+                            <td>{{BattODIs['fifty']}}</td>
+                            <td>{{BattODIs['hundred']}}</td>
+                            <td>{{BattODIs['st']}}</td>
+                            <td>{{BattODIs['ct']}}</td>
+                            <td>{{BattODIs['s6']}}</td>
+                            <td>{{BattODIs['s4']}}</td>
+                            <td>{{BattODIs['ave']}}</td>
+                            <td>{{BattODIs['hs']}}</td>
+                            <td>{{BattODIs['runs']}}</td>
+                            <td>{{BattODIs['no']}}</td>
+                            <td>{{BattODIs['inns']}}</td>
+                            <td>{{BattODIs['mat']}}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Tests</th>
+                            <td>{{BattTests['fifty']}}</td>
+                            <td>{{BattTests['hundred']}}</td>
+                            <td>{{BattTests['st']}}</td>
+                            <td>{{BattTests['ct']}}</td>
+                            <td>{{BattTests['s6']}}</td>
+                            <td>{{BattTests['s4']}}</td>
+                            <td>{{BattTests['ave']}}</td>
+                            <td>{{BattTests['hs']}}</td>
+                            <td>{{BattTests['runs']}}</td>
+                            <td>{{BattTests['no']}}</td>
+                            <td>{{BattTests['inns']}}</td>
+                            <td>{{BattTests['mat']}}</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <hr>
+            <h5 mt-3 mb-3> Batting Performance</h5>
+            <hr>
+
+            <div class="table-responsive">
+
+                <table class="table table-hover table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">League</th>
+                            <th scope="col">10</th>
+                            <th scope="col">5w</th>
+                            <th scope="col">4w</th>
+                            <th scope="col">Econ</th>
+                            <th scope="col">Ave</th>
+                            <th scope="col">BBM</th>
+                            <th scope="col">BBI</th>
+                            <th scope="col">Wkts</th>
+                            <th scope="col">Runs</th>
+                            <th scope="col">Balls</th>
+                            <th scope="col">Inns</th>
+                            <th scope="col">Mat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">ListA</th>
+                            <td>{{BowlListA['ten']}}</td>
+                            <td>{{BowlListA['w5']}}</td>
+                            <td>{{BowlListA['w5']}}</td>
+                            <td>{{BowlListA['econ']}}</td>
+                            <td>{{BowlListA['ave']}}</td>
+                            <td>{{BowlListA['bbm']}}</td>
+                            <td>{{BowlListA['bbi']}}</td>
+                            <td>{{BowlListA['wkts']}}</td>
+                            <td>{{BowlListA['runs']}}</td>
+                            <td>{{BowlListA['balls']}}</td>
+                            <td>{{BowlListA['inns']}}</td>
+                            <td>{{BowlListA['mat']}}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">First Class</th>
+                            <td>{{BowlFirstclass['ten']}}</td>
+                            <td>{{BowlFirstclass['w5']}}</td>
+                            <td>{{BowlFirstclass['w5']}}</td>
+                            <td>{{BowlFirstclass['econ']}}</td>
+                            <td>{{BowlFirstclass['ave']}}</td>
+                            <td>{{BowlFirstclass['bbm']}}</td>
+                            <td>{{BowlFirstclass['bbi']}}</td>
+                            <td>{{BowlFirstclass['wkts']}}</td>
+                            <td>{{BowlFirstclass['runs']}}</td>
+                            <td>{{BowlFirstclass['balls']}}</td>
+                            <td>{{BowlFirstclass['inns']}}</td>
+                            <td>{{BowlFirstclass['mat']}}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">T20Is</th>
+                            <td>{{BowlT20s['ten']}}</td>
+                            <td>{{BowlT20s['w5']}}</td>
+                            <td>{{BowlT20s['w5']}}</td>
+                            <td>{{BowlT20s['econ']}}</td>
+                            <td>{{BowlT20s['ave']}}</td>
+                            <td>{{BowlT20s['bbm']}}</td>
+                            <td>{{BowlT20s['bbi']}}</td>
+                            <td>{{BowlT20s['wkts']}}</td>
+                            <td>{{BowlT20s['runs']}}</td>
+                            <td>{{BowlT20s['balls']}}</td>
+                            <td>{{BowlT20s['inns']}}</td>
+                            <td>{{BowlT20s['mat']}}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">ODIs</th>
+                            <td>{{BowlODIs['ten']}}</td>
+                            <td>{{BowlODIs['w5']}}</td>
+                            <td>{{BowlODIs['w5']}}</td>
+                            <td>{{BowlODIs['econ']}}</td>
+                            <td>{{BowlODIs['ave']}}</td>
+                            <td>{{BowlODIs['bbm']}}</td>
+                            <td>{{BowlODIs['bbi']}}</td>
+                            <td>{{BowlODIs['wkts']}}</td>
+                            <td>{{BowlODIs['runs']}}</td>
+                            <td>{{BowlODIs['balls']}}</td>
+                            <td>{{BowlODIs['inns']}}</td>
+                            <td>{{BowlODIs['mat']}}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Tests</th>
+                            <td>{{BowlTests['ten']}}</td>
+                            <td>{{BowlTests['w5']}}</td>
+                            <td>{{BowlTests['w5']}}</td>
+                            <td>{{BowlTests['econ']}}</td>
+                            <td>{{BowlTests['ave']}}</td>
+                            <td>{{BowlTests['bbm']}}</td>
+                            <td>{{BowlTests['bbi']}}</td>
+                            <td>{{BowlTests['wkts']}}</td>
+                            <td>{{BowlTests['runs']}}</td>
+                            <td>{{BowlTests['balls']}}</td>
+                            <td>{{BowlTests['inns']}}</td>
+                            <td>{{BowlTests['mat']}}</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+
+            </div>
+            <hr>
+            <div class="text-center">
+                <!-- <a href="#" class="btn  btn-outline-warning mr-3"><i class="far fa-star" style="size: 2x;"></i> Add to Favourite</a> -->
+                <a type="button" routerLink="/dash" (click)="onBack(Details['name'])" class="btn btn-outline-dark "><i class="fas fa-chevron-circle-left" style="size:2x"></i> Back</a>
+                
+               
+            </div>
+            <hr>
+        </div>
+    </div>
+</div>

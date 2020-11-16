@@ -1,0 +1,104 @@
+
+
+  h4{
+    color:green;
+    font-family: sans-serif,Microsoft YaHei,Source Han Sans CN,Arial;
+    
+  }
+
+   .bod {
+    
+    background: rgb(213, 215, 216); 
+    width: 100%;
+    height: 100%;
+    
+ }
+ 
+ .card-signin {
+   border: 0;
+   border-radius: 5rem;
+   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+ }
+ /*for sign in text */
+ .card-signin .card-title {
+   margin-bottom: 3rem;
+   font-weight: 900;
+   font-size: 2rem;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+  /* card height*/
+  .card-signin .card-body {
+   padding: 3rem;
+ }
+ 
+ .form-signin {
+   width: 100%;
+ }
+ 
+ .form-signin .btn {
+   font-size: 100%;
+   border-radius: 20rem;
+   letter-spacing: .1rem;
+   font-weight: bold;
+   padding: 1rem;
+   transition: all 0.2s;
+   font-family: sans-serif;
+
+ }
+  /* spancing between email and password*/
+ 
+ .form-label-group {
+   position: relative;
+   margin-bottom: 1rem;
+ }
+ 
+ .form-label-group input {
+   height: auto;
+   border-radius: 3rem;
+   text-align: right;
+  
+ }
+ 
+ 
+ .form-label-group>label {
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: block;
+   width: 100%;
+   margin-bottom: 0;  
+   
+   line-height: 1.5;
+   color:black;
+   
+   border: 1px solid transparent;
+   border-radius: .25rem;
+   transition: all .1s ease-in-out;
+   text-align: justify;
+   padding-left: 10pt;
+   padding-top: 5pt;
+   padding-bottom: 5pt;
+ }
+ 
+ 
+ 
+  .form-label-group input::placeholder {
+   color: transparent; 
+   }
+  
+
+   .inputLine{
+    border-radius: 90px;
+    height:50px;
+    border: .2rem solid #c7c6c6;
+  }
+  
+  .more{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-top:8%;
+    margin-bottom:0%;
+    width:50;
+    font-size: x-large;
+  }

@@ -1,0 +1,42 @@
+<div class="container-fluid " style="background-color: rgb(247, 244, 244);">
+
+    <div class="row">
+        <div class="jumbotron jumbotron-fluid w-100 mt-2 bg-secondary">
+            <div class="container">
+                <h1 class="display-4" style="color:ivory "><i class="far fa-star"></i> Favourites</h1>
+                <!-- <p class="lead">Champions are made not born. <br> Do You Want To Know  </p> -->
+                <blockquote class="blockquote text-right" style="color:ivory ">
+                    <p class="mb-1">Champions are made not born. </p>
+                    <p class="mb-0 text-capitalize"> Do You Want to Know why they are winners? just cplayer it.</p>
+                    <footer class="blockquote-footer" style="color:ivory ">By<cite title="Source Title"> Cplayer App Team</cite></footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 offset-md-3 ">
+            <div class="card text-center border-dark mb-3" *ngFor="let d of user">
+
+                <div class="card-header bg-dark">
+                    <h5 style="color: whitesmoke;">Player Profile</h5>
+                </div>
+                <div class="card-body cBody">
+                    <h5 class="card-title" style="font-family: Comic Sans MS">Name : {{d.name}}</h5>
+                    <p class="card-text s">Fullname : {{d.fullName}}</p>
+                    <!-- <p class="card-text" style="font-family: Comic Sans MS">{{d.pId}}</p> -->
+                    <!-- <img src="../../../assets/1099822.svg" alt="" width="35" height="35"> -->
+                    <a routerLink="/stat" class="btn btn-sm btn-outline-info" (click)="onView(d.pId)">View Full
+                        Profile</a>
+                    <hr>
+                    <a  class="btn btn-sm btn-outline-danger" 
+                        (click)="onDelete(d.pId)"><i class="fas fa-trash" style="size: 2x;"></i> Remove
+                        </a>
+                </div>
+                <div class="card-footer bg-dark">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

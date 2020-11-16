@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "CPlayer-Client"
+    }
+  },
+  "defaultProject": "CPlayer-Client",
+  "cli": {
+    "analytics": "1764e5ab-a9b0-448b-b67f-932764c460e7"
+  }
 }
